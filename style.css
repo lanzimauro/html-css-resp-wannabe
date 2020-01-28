@@ -67,19 +67,27 @@ img{
 }
 
 @media screen and (max-width: 420px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
     #lezioni .row h1 {
         float: none;
         width: 100vw;
+        margin: 0 auto;
     }
 
     #lezioni .row > .left, #lezioni .row > .right{
       width: 100vw;
       float: none;
+      margin: 0 auto;
     }
 
     #steps .row h1 {
         float: none;
         width: 100vw;
+        margin: 0 auto;
     }
 
     #steps .row > .left,
@@ -87,7 +95,8 @@ img{
     #steps .row > .right{
       float: none;
       width: 100vw;
-
+      margin: 0 auto;
+    }
 }
 
 
